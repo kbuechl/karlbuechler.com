@@ -10,9 +10,6 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.35/css/uikit.min.css" />
 
-    <!-- UIkit JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.35/js/uikit.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.35/js/uikit-icons.min.js"></script>
     <link rel="stylesheet" href="./css/index.css" />
 </head>
 
@@ -20,10 +17,12 @@
     <div uk-height-viewport class="uk-container uk-flex uk-flex-column">
         <nav class="uk-navbar uk-navbar-container" uk-navbar id="nav">
             <div class="uk-navbar-left">
-                <div>
-                    Karl Buechler
-                    <div class="uk-navbar-subtitle">Software Developer</div>
-                </div>
+                <a href="" class="uk-link-reset">
+                    <div class="uk-text-center">
+                        Karl Buechler
+                        <div class="uk-navbar-subtitle">Full Stack Developer</div>
+                    </div>
+                </a>
             </div>
             <div class="uk-navbar-right">
                 <ul class="uk-navbar-nav">
@@ -37,19 +36,33 @@
             </div>
         </nav>
         <div class="uk-flex " id="content">
-            <img class="uk-responsive uk-border-circle uk-align-left" style="max-height:350px; max-width: 350px" src="images/twitterphoto.jpg"
-                alt="me!">
-            <p class="uk-text-large">
-                Hey there
-            </p>
+            <img class="uk-responsive uk-border-circle uk-align-left profile-image" src="images/twitterphoto.jpg" alt="me!">
+            <div class="uk-margin-large-top large-text">
+                <p>
+                    Hey there! I am a Karl Buechler, owner of KB Technologies LLC and currently a full stack developer at
+                    <a href="https://www.progressive.com/careers/">Progressive Insurance</a> and currently residing in beautiful Colorado
+                    Springs, Colorado.
+
+                </p>
+                <p>
+                    Interested in
+                    <a href="#about">learning more?</a>
+                    Or if you want to chat about an upcoming project or new technology please
+                    <a href="mailto:karlrbuechler@gmail.com">reach out!</a>
+                </p>
+            </div>
         </div>
         <div id="footer" class="uk-text-center">
-            <a href="https://github.com/kbuechl" uk-icon="icon: github" class="uk-margin-medium-right"></a>
-            <a href="https://twitter.com/KarlBuechler" uk-icon="icon: twitter" class="uk-margin-medium-right"></a>
-            <a href="https://www.linkedin.com/in/karl-buechler-9889a246/" uk-icon="icon: linkedin" class="uk-margin-medium-right"></a>
-            <a href="mailto:karlrbuechler@gmail.com" uk-icon="icon: mail"></a>
+            <a href="https://github.com/kbuechl" uk-icon="icon: github; ratio: 1.5" class="uk-margin-medium-right"></a>
+            <a href="https://twitter.com/KarlBuechler" uk-icon="icon: twitter; ratio: 1.5" class="uk-margin-medium-right"></a>
+            <a href="https://www.linkedin.com/in/karl-buechler-9889a246/" uk-icon="icon: linkedin; ratio: 1.5" class="uk-margin-medium-right"></a>
+            <a href="mailto:karlrbuechler@gmail.com" uk-icon="icon: mail; ratio: 1.5"></a>
         </div>
     </div>
+
+    <!-- UIkit JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.35/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.35/js/uikit-icons.min.js"></script>
 </body>
 
 </html>
