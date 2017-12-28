@@ -2,7 +2,10 @@
     max-height:300px; 
     max-width: 300px;
 }
-
+.mobile-profile-image{
+    max-height:200px; 
+    max-width: 200px;
+}
 .large-text{
     font-size: 1.25em;    
 }   
